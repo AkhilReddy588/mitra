@@ -1,0 +1,40 @@
+.history-content {
+  background-image: url('https://res.cloudinary.com/dwma8dkv0/image/upload/v1719836201/soahf8p9avygvxobsl19.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 10px;
+  padding-top: 60px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.history-heading {
+  color: #265e9e;
+  font-family: 'Roboto';
+  text-align: center;
+  margin-top: 50px;
+}
+
+.history-box {
+  border-radius: 10px;
+  align-self: center;
+}
+
+.history-box-heading {
+  color: #265e9e;
+  font-family: 'Roboto';
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 576px) {
+  .history-box-heading {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .history-box-heading {
+    font-size: 30px;
+  }
+}
