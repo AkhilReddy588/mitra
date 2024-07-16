@@ -1,0 +1,147 @@
+.service-item-details-content{
+    background-image: url('https://res.cloudinary.com/dwma8dkv0/image/upload/v1719836201/soahf8p9avygvxobsl19.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px;
+    padding-top: 120px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.shop-keeper-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop-profile{
+    display: flex;
+    align-items: center;
+    color: #054186;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+}
+
+.shop-icon{
+    width: 200px;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+
+.shop-contact-details{
+    color: #265e9e;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.contact-details-mobile-view{
+    display: none;
+    color: #054186;
+}
+
+.services-providing-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.available-services-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.available-services-heading{
+    color: #265e9e;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.available-services-list{
+    width: 550px;
+    align-self: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-span{
+    font-weight: 600;
+}
+
+.start-order-card{
+    background-color: #c5d9ee;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.start-order-card-heading{
+    color: #034070;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.start-order-card-para{
+    color: #666;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.start-order-btn{
+    width: 120px;
+    height: 30px;
+    background-color: #b3d2f4;
+    color: #084488;
+    font-weight: 500;
+    border: 2px solid #265e9e;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .shop-keeper-details{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .shop-profile{
+        margin-left: 20px;
+        align-items: flex-start;
+    }
+    .shop-icon{
+        width: 150px;
+        margin-right: 20px;
+    }
+    .contact-details-mobile-view{
+        display: block;
+        color: #265e9e;
+    }
+    .shop-contact-details{
+        display: none;
+    }
+    .available-services-list{
+        width: 300px;
+    }
+    .available-services-heading{
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .start-order-card{
+        width: 320px;
+    }
+    .start-order-card-para{
+        font-size: 15px;
+    }
+}

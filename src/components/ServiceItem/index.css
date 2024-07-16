@@ -1,75 +1,80 @@
 .service-item-card {
-  background-color: #ebf4f5;
-  padding: 10px;
-  margin: 15px;
-  border-radius: 10px;
-  width: 280px;
-  display: flex;
-  flex-direction: column;
-  box-shadow:
-    0 4px 8px rgba(95, 115, 134, 0.3),
-    0 6px 20px rgba(95, 115, 134, 0.2);
-  cursor: pointer;
+    background-color: #ebf4f5;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(95, 115, 134, 0.3), 0 6px 20px rgba(95, 115, 134, 0.2);
+    cursor: pointer;
 }
 
 .service-img {
-  width: 100%;
-  height: 150px;
-  margin-right: 10px;
-  border-radius: 10px;
+    width: 100%;
+    height: 150px;
+    margin-right: 10px;
+    border-radius: 10px;
 }
 
 .service-name {
-  color: #0f0f0f;
-  font-size: 15px;
-  line-height: 10px;
-  margin-top: 20px;
+    color: #0f0f0f;
+    font-size: 15px;
+    line-height: 10px;
+    margin-top: 20px;
+}
+
+.service-name:hover {
+    text-decoration: underline;
 }
 
 .service-location {
-  color: #0f0f0f;
-  margin-top: 5px;
+    color: #0f0f0f;
+    margin-top: 5px;
 }
 
 .rating-container {
-  display: flex;
-  align-items: center;
-  background-color: #3b82f6;
-  padding: 8px;
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 15px;
-  width: 35px;
-  height: 15px;
-  border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #3b82f6;
+    padding: 8px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+    width: 35px;
+    height: 15px;
+    border-radius: 10px;
 }
+
 .star-img {
-  width: 15px;
-  margin-left: 5px;
+    width: 15px;
+    margin-left: 5px;
 }
 
 .link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
-  .service-item-card {
-    width: 200px;
-  }
+    .service-item-card {
+        width: 200px;
+    }
 }
 
 @media screen and (max-width: 576px) {
-  .service-item-card {
-    flex-direction: row;
-    width: 80%;
-  }
-  .service-img {
-    width: 70px;
-    height: 70px;
-  }
-  .rating-container {
-    width: 32px;
-    height: 10px;
-    font-size: 14px;
-  }
+    .service-item-card {
+        flex-direction: row;
+        width: 300px;
+    }
+
+    .service-img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .rating-container {
+        width: 32px;
+        height: 10px;
+        font-size: 14px;
+    }
 }

@@ -1,0 +1,138 @@
+.order-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.file-input {
+  color: black;
+}
+
+.file-name {
+  margin-bottom: 20px;
+  color: #034070;
+}
+
+.label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #265e9e;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.file-input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.copies-input {
+  padding: 5px;
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.customize-pages {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.page-label {
+  color: #3f3f3f;
+}
+
+.caution-msg {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.page-input-box {
+  margin-bottom: 10px;
+}
+
+.color-input {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  background: transparent;
+}
+
+.order-form-submit-btn {
+  border: none;
+  color: #ffffff;
+  background-color: #265e9e;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 10px;
+  margin-top: 30px;
+  width: 120px;
+  height: 28px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+.custom-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.customize-row {
+  display: flex;
+  align-items: center;
+  background-color: #a7c8ee;
+  border-radius: 10px;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.customize-order-heading {
+  text-align: center;
+  color: #265e9e;
+}
+
+.custom-range-input {
+  width: 50px;
+}
+
+.customize-add-button {
+  margin-left: auto;
+  background-color: #1077ec;
+  color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  width: 70px;
+  height: 25px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.custom-error-message {
+  margin-left: 10px;
+  color: red;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 700px) {
+  .label {
+    font-size: 15px;
+  }
+}
